@@ -1,0 +1,120 @@
+.view {
+    height: 371px;
+    width: 100%;
+    background-color: #001C72;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+}
+
+.imageView {
+margin:0;
+padding: 0;
+}
+
+.image{
+    margin:0;
+    padding: 0;
+    }
+
+.contentView {
+    position: relative;
+    top: 80px;
+    /* margin-left: 80px;
+    margin-right: 80px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.line {
+    border: 1px solid #FCF1E0;
+    /* margin-left: 80px;
+    margin-right: 80px; */
+    position: relative;
+    /* margin-top: 76px; */
+    opacity: 0.2;
+    width: 100%;
+}
+
+.text {
+    font-family: "NeuzeitGrotesk" ;
+    font-size: 14px;
+    margin:0;
+    padding: 0;
+    color: #FCF1E0;
+    line-height: 21px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+
+.textView {
+    display: flex;
+    justify-content: center;
+}
+
+.bottomView {
+    margin-top: 55px;
+    width: 100%;
+}
+
+@media  (min-width: 768px) {
+    .view {
+        height: 371px;
+        width: 100%;
+        background-color: #001C72;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .imageView {
+    
+    margin:0;
+    padding: 0;
+    }
+    
+    .image{
+        margin:0;
+        padding: 0;
+        }
+    
+    .contentView {
+        position: relative;
+        top: 80px;
+        margin-left: 80px;
+        margin-right: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:unset
+    }
+    
+    .line {
+        border: 1px solid #FCF1E0;
+        position: relative;
+        opacity: 0.2;
+    }
+    
+    .text {
+        font-family: "NeuzeitGrotesk" ;
+        font-size: 14px;
+        margin:0;
+        padding: 0;
+        color: #FCF1E0;
+        line-height: 21px;
+        margin-top: 16px;
+        margin-bottom: 15px;
+    }
+    
+    .textView {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .bottomView {
+        margin-top: 55px;
+    }
+     
+}

@@ -1,0 +1,326 @@
+.navBar {
+    height: 56px;
+    width:100%;
+    background-color: #FFFFFF;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    padding: 16px 26px 16px 26px;
+}
+
+.container {
+    height: 24px;
+    width: 100%;
+    left: 79px;
+    top: 25px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selection {
+    height: 15.00097370147705px;
+width: 100%;
+
+border-radius: 0px;
+display: none;
+}
+
+
+.logoContainer {
+    width: 114px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 8px;
+}
+
+
+.logoView {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+  
+  }
+
+.logo {
+    border-radius: 0px;
+    object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+}
+
+
+.iconView {
+    position: relative;
+    /* background-color: yellow; */
+    width: 16px;
+}
+
+
+.links {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.selected {
+    color: #BC2E3E;
+    font-family: "UtopiaStd";
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    /* margin-right: 50px; */
+    display: flex;
+
+    align-items: center;
+    margin-left: 4px;
+    /* flex: 3; */
+}
+
+.linkText {
+    font-family: "UtopiaStd";
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    /* margin-right: 50px; */
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+
+}
+
+
+
+.linkDiv {
+    padding: 0px;
+    margin: 0px; 
+    display: flex;
+    justify-content: center;
+}
+
+
+  
+  @media  (min-width: 1200px) {
+    /* For web */
+    .navBar {
+        height: 90px;
+        width:100%;
+        background-color: #FFFFFF;
+        margin-top: 0;
+        padding-left: 79px;
+        padding-top: 25;
+        padding-bottom: 25;
+        padding-right: 79px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .container {
+        height: 40px;
+        width: 100%;
+        left: 79px;
+        top: 25px;
+        border-radius: 0px;
+        /* background-color: springgreen; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        /* margin-right: 100px; */
+    }
+    
+    .selection {
+        height: 15.00097370147705px;
+        width: 100%;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 80px;
+        justify-content: space-between;
+
+    }
+    
+    .iconView {
+        display: none;
+    }
+    
+    .links {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+
+    
+    }
+    
+    .selected {
+        color: #BC2E3E;
+        font-family: "UtopiaStd";
+        font-size: 16px;
+        padding: 0px;
+        margin: 0px;
+        /* margin-right: 50px; */
+        display: flex;
+        align-items: center;
+        margin-left: 4px;
+    }
+    
+    .linkText {
+        font-family: "UtopiaStd";
+        font-size: 16px;
+        padding: 0px;
+        margin: 0px;
+        /* margin-right: 50px; */
+        display: flex;
+        align-items: center;
+        margin-left: 4px;
+    
+    }
+    
+    .logo {
+        left: 79px;
+        top: 25px;
+        border-radius: 0px;
+    }
+
+    .logoView {
+        width: 192px;
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+      }
+
+    .logoContainer {
+        width: 192px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 8px;
+        /* background-color: burlywood; */
+    }
+    
+    .linkDiv {
+        padding: 0px;
+        margin: 0px; 
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+
+  
+  @media  (min-width: 1500px) {
+    /* For web */
+    .navBar {
+        height: 90px;
+        width:100%;
+        background-color: #FFFFFF;
+        margin-top: 0;
+        padding-left: 79px;
+        padding-top: 25;
+        padding-bottom: 25;
+        padding-right: 79px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .container {
+        height: 40px;
+        width: 100%;
+        left: 79px;
+        top: 25px;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .selection {
+        height: 15.00097370147705px;
+        width: 100%;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 300px;
+        justify-content: space-between;
+
+    }
+    
+    .iconView {
+        display: none;
+    }
+    
+    .links {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+
+    
+    }
+    
+    .selected {
+        color: #BC2E3E;
+        font-family: "UtopiaStd";
+        font-size: 16px;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        margin-left: 4px;
+    }
+    
+    .linkText {
+        font-family: "UtopiaStd";
+        font-size: 16px;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        margin-left: 4px;
+    
+    }
+    
+    .logo {
+        left: 79px;
+        top: 25px;
+        border-radius: 0px;
+    }
+
+    .logoView {
+        width: 192px;
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+      }
+
+    .logoContainer {
+        width: 192px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 8px;
+    }
+    
+    .linkDiv {
+        padding: 0px;
+        margin: 0px; 
+        display: flex;
+        justify-content: center;
+    }
+  }

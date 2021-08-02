@@ -1,0 +1,190 @@
+.view {
+height: 270px;
+width:100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.welcomeView {
+    width: auto;
+    height: 177px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+    margin-right: 16px;
+
+}
+
+.imageView {
+    width:  56.32px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.image{
+    border-radius: 0px;
+    object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+}
+
+.welcomeMessage {
+    width: auto;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.title {
+    font-family: "UtopiaStd";
+    font-size: 19px;
+    padding: 0;
+    margin:0;
+    line-height:24px ;
+    color: #001C72;
+}
+
+.message {
+    font-family: "NeuzeitGrotesk";
+    font-size: 14px;
+    padding: 0;
+    margin:0;
+    line-height: 21px;
+    color: #BC2E3E;
+    text-align: center;
+}
+
+@media  (min-width: 360px) {
+    .view {
+        height: 245px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        }
+        
+        .welcomeView {
+            width: auto;
+            height: 177px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 16px;
+            margin-right: 16px;
+        
+        }
+        
+        .imageView {
+            width:  56.32px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+        
+        .image{
+            border-radius: 0px;
+            object-fit: contain;
+              width: 100% !important;
+              position: relative !important;
+              height: unset !important;
+        }
+        
+        .welcomeMessage {
+            width: auto;
+            height: 88px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 16px;
+        }
+        
+        .title {
+            font-family: "UtopiaStd";
+            font-size: 20px;
+            padding: 0;
+            margin:0;
+            line-height:24px ;
+            color: #001C72;
+        }
+        
+        .message {
+            font-family: "NeuzeitGrotesk";
+            font-size: 14px;
+            padding: 0;
+            margin:0;
+            line-height: 21px;
+            color: #BC2E3E;
+            text-align: center;
+        }
+}
+
+@media  (min-width: 700px) {
+    .view {
+        height: 204px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        }
+        
+        .welcomeView {
+            width: 1080px;
+            height: 150px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .imageView{
+            width: 120px;
+            height: 150px;
+        }
+
+        .image{
+            object-fit: contain;
+        }
+        
+
+        .welcomeMessage {
+            width: 458px;
+            height: 88px;
+            margin-left: 32px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 0;
+        }
+        
+        .title {
+            font-family: "UtopiaStd";
+            font-size: 32px;
+            padding: 0;
+            margin:0;
+            line-height:38.4px ;
+            color: #001C72;
+        }
+        
+        .message {
+            font-family: "NeuzeitGrotesk";
+            font-size: 16px;
+            padding: 0;
+            margin:0;
+            line-height: 23.2px;
+            color: #BC2E3E;
+            text-align: center;
+        }
+}

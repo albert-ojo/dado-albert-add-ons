@@ -1,0 +1,1198 @@
+.view {
+    padding-top: 81px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 88px;
+    background-color:white;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: auto ;
+    justify-content: space-evenly;
+  }
+
+  .card{
+    
+    height: 520px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #CCD2E3;
+    border-radius: 4px;
+    padding: 0px, 0px, 24px, 0px;
+    margin-bottom: 28px;
+  }
+
+  .topView{
+    height: 205.01136779785156px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px 4px 0px 0px;
+    background-color: #FBFBFB;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .image{
+    margin-bottom:5px ;
+    
+  }
+
+  .imageView {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 5px;
+  }
+
+  .categoryView {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .categoryTag {
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .probiotics {
+    background: #704697;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .mobility {
+    background: #001C72;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .skin {
+    background: #CD0053;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .health {
+    background: #729F00;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .dental {
+    background: #22A594;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .food {
+    background: #F54B34;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .categoryText {
+    font-family: "NeuzeitGrotesk" ;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+
+  }
+
+  .bottomView {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    background-color: turquoise;
+    height: 253px;
+    width: 260px;
+  }
+
+  .infoView {
+    height: 253px;
+    width: auto;
+    left: 24px;
+    border-radius: 0px;
+    margin-top: 20px;
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .titleView {
+    height: 24px;
+    width: auto;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+  }
+
+  .titleText {
+    font-family: "UtopiaStd";
+    font-size: 20px;
+    padding: 0;
+    margin:0;
+    line-height:24px ;
+    color: #001C72;
+  }
+
+  .subView{
+    margin: 8px 0px;
+  }
+
+  .subText {
+    font-family: "UtopiaStd";
+    font-size: 16px;
+    
+    padding: 0;
+    margin:0;
+    line-height:21px ;
+    color: #001C72;
+  }
+
+.bulletView {
+  height: 23px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 1px;
+}
+
+  .benefitsBullet {
+    height: 23px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .benefitsText{
+    font-family: "NeuzeitGrotesk";
+    font-size: 16px;
+    padding: 0;
+    margin:0;
+    line-height:23.2px ;
+    color: #001C72;
+    margin-left:5px ;
+   
+  }
+
+  .priceView{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .priceText{
+    font-family: "UtopiaStd";
+    font-size: 16px;
+    padding: 0;
+    margin:0;
+    line-height:23px ;
+    color: #001C72;
+    margin-right: 5px;
+  }
+
+  .priceOld{
+    font-family: "UtopiaStd";
+    font-size: 16px;
+    padding: 0;
+    margin:0;
+    line-height:23px ;
+    color: #001C7266;
+text-decoration-line: line-through;
+    margin-right: 5px;
+  }
+
+  .priceOff{
+    font-family: "UtopiaStd";
+    font-size: 16px;
+    padding: 0;
+    margin:0;
+    line-height:23px ;
+    color: #BC2E3E;
+    margin-right: 5px;
+  }
+
+  .shopButtonView {
+    margin-top: 8px;
+    background-color:#BC2E3E;
+    width: 100%;
+    height: 46px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .shopButtonText {
+    color: white;
+    font-family: "NeuzeitGrotesk";
+    line-height:25.6px ;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+
+   /* //////////////////////////////////////////////////////////////////// */
+
+@media  (min-width: 360px) {
+  .view {
+    padding-top: 81px;
+    padding-right: 180px;
+    padding-left: 180px;
+    padding-bottom: 88px;
+    background-color:white;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: auto ;
+    justify-content: space-evenly;
+  }
+
+  .card{
+    
+    height: 502.0113525390625px;
+    width: 343px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #CCD2E3;
+    border-radius: 4px;
+    padding: 0px, 0px, 24px, 0px;
+    margin-bottom: 28px;
+  }
+
+  .topView{
+    height: 205.01136779785156px;
+
+    left: 0px;
+    top: 0px;
+    border-radius: 4px 4px 0px 0px;
+    background-color: #FBFBFB;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .image{
+    margin-bottom:5px ;
+    
+  }
+
+  .imageView {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 5px;
+  }
+
+  .categoryView {
+    display: flex;
+    width: 100%;
+
+    justify-content: flex-end;
+  }
+
+  .categoryTag {
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .probiotics {
+    background: #704697;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .mobility {
+    background: #001C72;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .skin {
+    background: #CD0053;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .health {
+    background: #729F00;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .dental {
+    background: #22A594;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .food {
+    background: #F54B34;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .categoryText {
+    font-family: "NeuzeitGrotesk" ;
+    color: white;
+    font-size: 14px;
+
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+
+  }
+
+  .bottomView {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    background-color: turquoise;
+    height: 253px;
+    width: 260px;
+
+  }
+
+  .infoView {
+    height: 253px;
+    width: 260px;
+    left: 24px;
+    border-radius: 0px;
+    margin-top: 20px;
+    padding: 0px;
+    margin-left: 41.5px;
+    margin-right: 41.5px;
+  }
+
+  .titleView {
+    height: 24px;
+    width: 260px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+    
+
+  }
+
+  .titleText {
+    font-family: "UtopiaStd";
+    font-size: 20px;
+    padding: 0;
+    margin:0;
+    line-height:24px ;
+    color: #001C72;
+  }
+
+  .subView{
+    margin: 8px 0px;
+  }
+
+  .subText {
+    font-family: "UtopiaStd";
+    font-size: 16px;
+    
+    padding: 0;
+    margin:0;
+    line-height:21px ;
+    color: #001C72;
+  }
+
+.bulletView {
+  height: 23px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 1px;
+}
+
+  .benefitsBullet {
+    height: 23;
+    width: 260;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .benefitsText{
+    font-family: "NeuzeitGrotesk";
+    font-size: 16px;
+    
+    padding: 0;
+    margin:0;
+    line-height:23.2px ;
+    color: #001C72;
+    margin-left:5px ;
+   
+  }
+
+  .priceView{
+    margin-top: 20px;
+    height: 23px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .priceText{
+    font-family: "UtopiaStd";
+    font-size: 16px;
+    padding: 0;
+    margin:0;
+    line-height:23px ;
+    color: #001C72;
+    margin-right: 5px;
+  }
+
+  .priceOld{
+    font-family: "UtopiaStd";
+    font-size: 16px;
+    padding: 0;
+    margin:0;
+    line-height:23px ;
+    color: #001C7266;
+text-decoration-line: line-through;
+    margin-right: 5px;
+  }
+
+  .priceOff{
+    font-family: "UtopiaStd";
+    font-size: 16px;
+    padding: 0;
+    margin:0;
+    line-height:23px ;
+    color: #BC2E3E;
+    margin-right: 5px;
+  }
+
+  .shopButtonView {
+    margin-top: 8px;
+    background-color:#BC2E3E;
+    width: 260px;
+    height: 46px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .shopButtonText {
+    color: white;
+    font-family: "NeuzeitGrotesk";
+    line-height:25.6px ;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
+ /* //////////////////////////////////////////////////////////////////// */
+
+@media  (min-width: 800px) {
+  .view {
+    padding-top: 81px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 88px;
+    background-color:white;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+
+  }
+
+  .card{
+    height: 502.0113525390625px;
+    width: 308px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #CCD2E3;
+    border-radius: 4px;
+    padding: 0px, 0px, 24px, 0px;
+    margin-bottom: 28px;
+  }
+
+  .topView{
+    height: 205.01136779785156px;
+
+    left: 0px;
+    top: 0px;
+    border-radius: 4px 4px 0px 0px;
+    background-color: #FBFBFB;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .image{
+    margin-bottom:5px ;
+    
+  }
+
+  .imageView {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 5px;
+  }
+
+  .categoryView {
+    display: flex;
+    width: 100%;
+
+    justify-content: flex-end;
+  }
+
+  .categoryTag {
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .probiotics {
+    background: #704697;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .mobility {
+    background: #001C72;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .skin {
+    background: #CD0053;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .health {
+    background: #729F00;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .dental {
+    background: #22A594;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .food {
+    background: #F54B34;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .categoryText {
+    font-family: "NeuzeitGrotesk" ;
+    color: white;
+    font-size: 14px;
+
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+
+  }
+
+  .bottomView {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    background-color: turquoise;
+    height: 253px;
+    width: 260px;
+
+  }
+
+  .infoView {
+    height: 253px;
+    width: 260px;
+    left: 24px;
+    border-radius: 0px;
+    margin-top: 20px;
+padding: 0px;
+margin-left: 24px;
+margin-right: 24px;
+  }
+
+  .titleView {
+    height: 24px;
+    width: 260px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+  }
+
+  .titleText {
+    font-family: "UtopiaStd";
+    font-size: 20px;
+    padding: 0;
+    margin:0;
+    line-height:24px ;
+    color: #001C72;
+  }
+
+  .subView{
+    margin: 8px 0px;
+  }
+
+  .subText {
+    font-family: "UtopiaStd";
+    font-size: 16px;
+    
+    padding: 0;
+    margin:0;
+    line-height:21px ;
+    color: #001C72;
+  }
+
+.bulletView {
+  height: 23px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 1px;
+}
+
+  .benefitsBullet {
+    height: 23;
+    width: 260;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .benefitsText{
+    font-family: "NeuzeitGrotesk";
+    font-size: 16px;
+    padding: 0;
+    margin:0;
+    line-height:23.2px ;
+    color: #001C72;
+    margin-left:5px ;
+   
+  }
+
+  .priceView{
+    margin-top: 20px;
+    height: 23px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .priceText{
+    font-family: "UtopiaStd";
+    font-size: 16px;
+    padding: 0;
+    margin:0;
+    line-height:23px ;
+    color: #001C72;
+    margin-right: 5px;
+  }
+
+  .priceOld{
+    font-family: "UtopiaStd";
+    font-size: 16px;
+    padding: 0;
+    margin:0;
+    line-height:23px ;
+    color: #001C7266;
+text-decoration-line: line-through;
+    margin-right: 5px;
+  }
+
+  .priceOff{
+    font-family: "UtopiaStd";
+    font-size: 16px;
+    padding: 0;
+    margin:0;
+    line-height:23px ;
+    color: #BC2E3E;
+    margin-right: 5px;
+  }
+
+  .shopButtonView {
+    margin-top: 8px;
+    background-color:#BC2E3E;
+    width: 260px;
+    height: 46px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .shopButtonText {
+    color: white;
+    font-family: "NeuzeitGrotesk";
+    line-height:25.6px ;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+
+@media  (min-width: 1300px) {
+  .view {
+    padding-top: 81px;
+    padding-right: 180px;
+    padding-left: 180px;
+    padding-bottom: 88px;
+    background-color:white;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+
+  }
+
+  .card{
+    height: 502.0113525390625px;
+    width: 308px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #CCD2E3;
+    border-radius: 4px;
+    padding: 0px, 0px, 24px, 0px;
+    margin-bottom: 28px;
+  }
+
+  .topView{
+    height: 205.01136779785156px;
+
+    left: 0px;
+    top: 0px;
+    border-radius: 4px 4px 0px 0px;
+    background-color: #FBFBFB;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .image{
+    margin-bottom:5px ;
+    
+  }
+
+  .imageView {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 5px;
+  }
+
+  .categoryView {
+    display: flex;
+    width: 100%;
+
+    justify-content: flex-end;
+  }
+
+  .categoryTag {
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .probiotics {
+    background: #704697;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .mobility {
+    background: #001C72;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .skin {
+    background: #CD0053;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .health {
+    background: #729F00;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .dental {
+    background: #22A594;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .food {
+    background: #F54B34;
+    position: relative;
+    top:8px;
+    right: 8px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 2px;
+    border-radius: 4px;
+  }
+
+  .categoryText {
+    font-family: "NeuzeitGrotesk" ;
+    color: white;
+    font-size: 14px;
+
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+
+  }
+
+  .bottomView {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    background-color: turquoise;
+    height: 253px;
+    width: 260px;
+
+  }
+
+  .infoView {
+    height: 253px;
+    width: 260px;
+    left: 24px;
+    border-radius: 0px;
+    margin-top: 20px;
+    padding: 0px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .titleView {
+    height: 24px;
+    width: 260px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+  }
+
+  .titleText {
+    font-family: "UtopiaStd";
+    font-size: 20px;
+    padding: 0;
+    margin:0;
+    line-height:24px ;
+    color: #001C72;
+  }
+
+  .subView{
+    margin: 8px 0px;
+  }
+
+  .subText {
+    font-family: "UtopiaStd";
+    font-size: 16px;
+    
+    padding: 0;
+    margin:0;
+    line-height:21px ;
+    color: #001C72;
+  }
+
+  .benefitsBullet {
+    height: 23;
+    width: 260;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .benefitsText{
+    font-family: "NeuzeitGrotesk";
+    font-size: 16px;
+    padding: 0;
+    margin:0;
+    line-height:23.2px ;
+    color: #001C72;
+    margin-left:5px ;
+  }
+
+
+.bulletView {
+  height: 23px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 1px;
+}
+
+  .priceView{
+    margin-top: 20px;
+    height: 23px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .priceText{
+    font-family: "UtopiaStd";
+    font-size: 16px;
+    padding: 0;
+    margin:0;
+    line-height:23px ;
+    color: #001C72;
+    margin-right: 5px;
+  }
+
+  .priceOld{
+    font-family: "UtopiaStd";
+    font-size: 16px;
+    padding: 0;
+    margin:0;
+    line-height:23px ;
+    color: #001C7266;
+text-decoration-line: line-through;
+    margin-right: 5px;
+  }
+
+  .priceOff{
+    font-family: "UtopiaStd";
+    font-size: 16px;
+    padding: 0;
+    margin:0;
+    line-height:23px ;
+    color: #BC2E3E;
+    margin-right: 5px;
+  }
+
+  .shopButtonView {
+    margin-top: 8px;
+    background-color:#BC2E3E;
+    width: 260px;
+    height: 46px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .shopButtonText {
+    color: white;
+    font-family: "NeuzeitGrotesk";
+    line-height:25.6px ;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media  (min-width: 2000px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+  }
+}

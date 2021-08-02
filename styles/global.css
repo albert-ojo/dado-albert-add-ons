@@ -1,0 +1,63 @@
+html {
+  background-color:  #E5E5E5;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+ 
+}
+text{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  color:  #001C72 ;
+  text-decoration: none;
+
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.screen {
+  margin: 0;
+  padding: 0;
+  background-color:#E5E5E5;
+}
+
+@font-face {
+  font-family: "UtopiaStd";
+  src: url("../public/fonts/Adobe\ -\ UtopiaStd-Regular.otf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NeuzeitGrotesk";
+  src: url("../public//fonts/URW\ Type\ Foundry\ -\ NeuzeitGro-Reg.otf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+
