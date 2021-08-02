@@ -118,12 +118,9 @@ display: none;
         width:100%;
         background-color: #FFFFFF;
         margin-top: 0;
-        padding-left: 79px;
-        padding-top: 25;
-        padding-bottom: 25;
-        padding-right: 79px;
         display: flex;
         align-items: center;
+        padding: 25px 79px 25px 79px;
     }
     
     .container {
